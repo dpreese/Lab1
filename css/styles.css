@@ -1,0 +1,85 @@
+.nav-link, .navbar-brand {
+  color: white;
+  font-family: cursive;
+}
+
+.nav-link {
+  font-size: 14px;
+}
+
+.navbar-brand {
+  font-size: 25px;
+}
+
+.home {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.home h2 {
+  font-family: cursive;
+}
+
+.home img {
+  float:left;
+  margin-right: 10px;
+}
+
+.home p {
+  font-family: cursive;
+  font-size: 20px;
+}
+
+.footer {
+  position: fixed;
+  text-align: center;
+  bottom: 0px;
+  width: 100%;
+  background-color: #ACAAAA;
+}
+
+.home-images {
+  display: grid;
+  grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
+.image img {
+  width: 100%;
+}
+
+.more h3 {
+  font-family: cursive;
+  text-align: center;
+}
+
+.portfolio {
+  /*display: grid;
+  grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;*/
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: -8px;
+  width: 100%;
+}
+
+.portfolio.image img{
+  width: 100%;
+}
+
+.reviewpage {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: cursive;
+}
+
+.Contact {
+  font-family: cursive;
+}
